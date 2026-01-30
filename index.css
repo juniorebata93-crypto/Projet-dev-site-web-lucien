@@ -45,8 +45,8 @@ body{
  border: 1px solid #8b8585;
   border-radius: 5px;
   display: grid;
-  grid-template-rows: max-content 300px 1fr;
-  max: width 80px;;
+  grid-template-rows: max-content 298px 1fr;
+   width: 90%;
  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
  cursor: pointer;
  background-image: url("IMAGE\ CARTE\ 1.png");
@@ -72,7 +72,7 @@ body{
 
   display: grid;
   grid-template-rows: max-content 300px 1fr;
-  max: width 200px;;
+  width: 90%;
   background-image: url("image\ carte\ 2.png");
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
  cursor: pointer;
@@ -97,7 +97,7 @@ body{
 
   display: grid;
   grid-template-rows: max-content 300px 1fr;
-  max: width 200px;;
+  width :90%;
   background-image: url("image\ carte\ 3.png");
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
  cursor: pointer;
@@ -119,7 +119,7 @@ body{
   border-radius: 5px;
   display: grid;
   grid-template-rows: max-content 300px 1fr;
-  max: width 200px;;
+  width: 90%;
 background-image: url("image\ carte\ 4.png");
 transition: cubic-bezier(0.075, 0.82, 0.165, 1);
  cursor: pointer;
@@ -142,7 +142,7 @@ transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   border-radius: 5px;
   display: grid;
   grid-template-rows: max-content 300px 1fr;
-  max: width 200px;;
+  width: 90%;
 background-image: url("image\ carte\ 5.png");
 transition: cubic-bezier(0.075, 0.82, 0.165, 1);
  cursor: pointer;
@@ -165,7 +165,7 @@ transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 
   display: grid;
   grid-template-rows: max-content 300px 1fr;
-  max: width 200px;;
+  width: 90%;
 
 }
 .cards6{
@@ -179,7 +179,7 @@ transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   display: grid;
   grid-template-rows: max-content 10px 1fr;
   width: 4% ;
-  max: width 10px;;
+  width: 90%;
 }
 .all-cards{
 
@@ -226,10 +226,7 @@ right: 260px;
     margin: 0;
     right: 45%;
 }
-.sous-titre{
-    position: absolute
-    right: 10px;px;
-}
+
 .pré-entête{
     background-color: #999;
 }
@@ -247,7 +244,12 @@ align-items: center;
 
 
 }
+.sous-entête{
+ size: 5%;
+ width: 10%;
+right: 40%;
+}
 
-
-
+.body{
+  background-color: #999;
 }
