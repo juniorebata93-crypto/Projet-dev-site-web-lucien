@@ -1,31 +1,253 @@
 
+
+
 .styled {
   border: 0;
   line-height: 2.5;
-  padding: 0 20px;
-  font-size: 1rem;
+  padding: 0 5px;
+  font-size: 11px;
   text-align: center;
-  color: white;
+  color: rgb(216, 216, 61);
   text-shadow: 1px 1px 1px black;
   border-radius: 10px;
-  background-color: tomato;
+  background-color: rgb(75, 169, 74);
   background-image: linear-gradient(
     to top left,
     rgb(0 0 0 / 0.2),
     rgb(0 0 0 / 0.2) 30%,
     transparent
   );
+  width: 8%;
   box-shadow:
     inset 2px 2px 3px rgb(255 255 255 / 0.6),
-    inset -2px -2px 3px rgb(0 0 0 / 0.6);
+    inset -2px -2px 3px rgba(174, 141, 141, 0.6);
+    position: absolute;
+    top: 112px;
+    right: 120px;
+    margin-top: -58px;
 }
 
 .styled:hover {
-  background-color: red;
+  background-color: rgb(216, 56, 56);
 }
 
 .styled:active {
   box-shadow:
     inset -2px -2px 3px rgb(255 255 255 / 0.6),
     inset 2px 2px 3px rgb(0 0 0 / 0.6);
+}
+/*css barre de recherche*/
+body{
+.titre{
+    text-align: center;
+}
+.card1{
+ border: 1px solid #8b8585;
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: max-content 300px 1fr;
+  max: width 80px;;
+ transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+ cursor: pointer;
+ background-image: url("IMAGE\ CARTE\ 1.png");
+
+}
+.card1:hover{
+  transform: translateY(20px);
+  box-shadow: 0 10px 20px rgba(45, 180, 99, 0.2);
+}
+.cards1{
+  width: 20%;
+}
+}
+.t1{
+    text-align: center;
+    color: white;
+
+}
+
+.card2{
+    border: 1px solid #8b8585;
+  border-radius: 5px;
+
+  display: grid;
+  grid-template-rows: max-content 300px 1fr;
+  max: width 200px;;
+  background-image: url("image\ carte\ 2.png");
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+ cursor: pointer;
+}
+.card2:hover{
+  transform: translateY(20px);
+  box-shadow: 0 10px 20px rgba(45, 180, 99, 0.2);
+
+}
+.cards2{
+    width: 20%;
+
+}
+.t2{
+  text-align: center;
+    color: white;
+}
+
+.card3{
+    border: 1px solid #8b8585;
+  border-radius: 5px;
+
+  display: grid;
+  grid-template-rows: max-content 300px 1fr;
+  max: width 200px;;
+  background-image: url("image\ carte\ 3.png");
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+ cursor: pointer;
+}
+.card3:hover{
+  transform: translateY(20px);
+  box-shadow: 0 10px 20px rgba(45, 180, 99, 0.2);
+
+}
+.cards3{
+    width: 20%;
+}
+.t3{
+    text-align: center;
+    color: white;
+}
+.card4{
+    border: 1px solid #8b8585;
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: max-content 300px 1fr;
+  max: width 200px;;
+background-image: url("image\ carte\ 4.png");
+transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+ cursor: pointer;
+}
+.card4:hover{
+  transform: translateY(20px);
+  box-shadow: 0 10px 20px rgba(45, 180, 99, 0.2);
+
+}
+.cards4{
+    width: 20%;
+}
+.t4{
+    text-align: center;
+    color: white;
+}
+
+.card5{
+    border: 1px solid #8b8585;
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: max-content 300px 1fr;
+  max: width 200px;;
+background-image: url("image\ carte\ 5.png");
+transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+ cursor: pointer;
+}
+.card5:hover{
+  transform: translateY(20px);
+  box-shadow: 0 10px 20px rgba(45, 180, 99, 0.2);
+
+}
+.cards5{
+    width: 20%;
+}
+.t5{
+    text-align: center;
+    color: white;
+}
+.card6{
+    border: 1px solid #8b8585;
+  border-radius: 5px;
+
+  display: grid;
+  grid-template-rows: max-content 300px 1fr;
+  max: width 200px;;
+
+}
+.cards6{
+    width: 20%;
+}
+
+.card7{
+      border: 1px solid #8b8585;
+  border-radius: 5px;
+
+  display: grid;
+  grid-template-rows: max-content 10px 1fr;
+  width: 4% ;
+  max: width 10px;;
+}
+.all-cards{
+
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+}
+.all-cards1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    gap:30%px;
+}
+.logo-acceuil{
+ size: 25px;
+ width:15%;
+
+
+}
+.compte{
+    width:2%;
+     position: absolute;
+    top: -45px;
+    right: 55px;
+    margin-top: 60px;
+   
+}
+.search-bar{
+    margin-top:15px ;
+padding:8px 14px ;
+border-radius:20px ;
+border: 5px rgb(154, 56, 56) ;
+position: absolute;
+top: 35px;
+right: 260px;
+}
+.main{
+    background-color: aquamarine;
+}
+.titre{
+    position: absolute;
+    top: 3%;
+    margin: 0;
+    right: 45%;
+}
+.sous-titre{
+    position: absolute
+    right: 10px;px;
+}
+.pré-entête{
+    background-color: #999;
+}
+.mini-titre{
+list-style: none;
+display: flex;
+gap: 50px;
+text-decoration: none;
+color: rgb(32, 28, 169);
+font-weight: bold;
+text-transform: uppercase;
+
+text-align: center;
+align-items: center;
+
+
+}
+
+
+
 }
