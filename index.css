@@ -42,27 +42,31 @@ body{
     text-align: center;
 }
 .card1{
- border: 1px solid #8b8585;
-  border-radius: 5px;
+   text-decoration: none;
+    border: 1px solid #8b8585;
+  border-radius: 20px;
   display: grid;
-  grid-template-rows: max-content 298px 1fr;
+  grid-template-rows: max-content 280px 1fr;
    width: 90%;
  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
  cursor: pointer;
  background-image: url("IMAGE\ CARTE\ 1.png");
-
 }
 .card1:hover{
   transform: translateY(20px);
-  box-shadow: 0 10px 20px rgba(45, 180, 99, 0.2);
+  box-shadow: 0 10px 20px rgba(22, 115, 59, 0.2);
 }
 .cards1{
   width: 20%;
+  text-decoration: none;
 }
 }
 .t1{
     text-align: center;
     color: white;
+}
+.tt1 h1{
+  text-decoration: none;
 
 }
 
@@ -71,7 +75,7 @@ body{
   border-radius: 5px;
 
   display: grid;
-  grid-template-rows: max-content 300px 1fr;
+  grid-template-rows: max-content 292px 1fr;
   width: 90%;
   background-image: url("image\ carte\ 2.png");
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -228,28 +232,47 @@ right: 260px;
 }
 
 .pré-entête{
-    background-color: #999;
+    background-color: #755959;
 }
 .mini-titre{
 list-style: none;
 display: flex;
-gap: 50px;
+gap: 70px;
 text-decoration: none;
-color: rgb(32, 28, 169);
+color: white;
 font-weight: bold;
 text-transform: uppercase;
-
-text-align: center;
+transition: all 0.3s;
 align-items: center;
-
-
+cursor: pointer;
+list-style: none;
+font-size: 15px;
+border: 8px white;
 }
+.mini-titre a {
+  padding: 1% ;
+ border-radius: 5px;
+  size: 50px;
+ box-shadow : 4PX 4px 12px white, -4px -4px 12px white
+  
+}
+.mini-titre a :hover{
+  border: 10px solid;
+  border-radius: 10px;
+}
+
+
 .sous-entête{
  size: 5%;
  width: 10%;
 right: 40%;
 }
 
-.body{
+body{
   background-color: #999;
+}
+.mini-button{
+  text-decoration: none;
+  color: white;
+  background-color: #8b8585;
 }
