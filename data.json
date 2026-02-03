@@ -1,0 +1,37 @@
+
+{
+   "all-cards": [
+    {
+        "id=1": "card1",
+        "titre ": "Histoire",
+        "résumé": "dans cette carte figure un article ayant pour but de relater les faits et événements histoires qui se sont produits en Républiques du Congo en partant de l'époque coloniale jusqu'aux années 2000",
+        "description": "cette carte permet de diriger l'utilistteur vers un article basé sur l'histore de la République du Congo"
+        
+    },
+    {
+        "id=2": "card2",
+        "titre": "Biodiversité",
+        "résumé": "dans cette carte figure un article consacrer à parler de la Biodiversté notemment le bassin que possède la République du Congo ",
+        "description": "cette carte permet de diriger l'utilistteur vers un article basé sur la faune notemmant le bassin du Congo que possède la République du Congo"
+    },
+    {
+         "id=3": "card3",
+         "titre": "culture",
+         "résumé" : " dans cette carte figure un article consacré à la culture des différentes ethnies existantes en République du Congo",
+         "description":"cette carte permet de diriger l'utilisteur vers un article consacré à la culture congolaise"
+    },
+    {
+         "id=4": "card4",
+         "titre": "Musique",
+         "résumé" : " dans cette carte figure un article consacré à la Musique congolaise dont un style en particulier appélé Rumba congolaise",
+         "description":"cette carte permet de diriger l'utilisteur vers un article consacré à la musique congolaise"
+    },
+    {
+        "id=5": "card5",
+         "titre": "Mode",
+         "résumé" : " dans cette carte figure un article consacré à la Mode congolaise appeler sapologie qui est un art d'assemblé les couleurs ",
+         "description":"cette carte permet de diriger l'utilisteur vers un article consacré à la Mode congolaise"
+    }
+    ]
+    
+}

@@ -10,7 +10,7 @@
   color: rgb(216, 216, 61);
   text-shadow: 1px 1px 1px black;
   border-radius: 10px;
-  background-color: rgb(75, 169, 74);
+  background-color: rgb(27, 175, 69);
   background-image: linear-gradient(
     to top left,
     rgb(0 0 0 / 0.2),
@@ -263,9 +263,12 @@ border: 8px white;
 
 
 .sous-entête{
+  
  size: 5%;
  width: 10%;
 right: 40%;
+display: flex;
+justify-content: flex-end;
 }
 
 body{
