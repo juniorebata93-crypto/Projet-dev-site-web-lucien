@@ -72,7 +72,7 @@ body{
 
 .card2{
     border: 1px solid #8b8585;
-  border-radius: 5px;
+  border-radius: 20px;
 
   display: grid;
   grid-template-rows: max-content 292px 1fr;
@@ -97,7 +97,7 @@ body{
 
 .card3{
     border: 1px solid #8b8585;
-  border-radius: 5px;
+  border-radius: 20px;
 
   display: grid;
   grid-template-rows: max-content 300px 1fr;
@@ -120,7 +120,7 @@ body{
 }
 .card4{
     border: 1px solid #8b8585;
-  border-radius: 5px;
+  border-radius: 20px;
   display: grid;
   grid-template-rows: max-content 300px 1fr;
   width: 90%;
@@ -143,7 +143,7 @@ transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 
 .card5{
     border: 1px solid #8b8585;
-  border-radius: 5px;
+  border-radius: 20px;
   display: grid;
   grid-template-rows: max-content 300px 1fr;
   width: 90%;
@@ -165,7 +165,7 @@ transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .card6{
     border: 1px solid #8b8585;
-  border-radius: 5px;
+  border-radius: 20px;
 
   display: grid;
   grid-template-rows: max-content 300px 1fr;
@@ -178,7 +178,7 @@ transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 
 .card7{
       border: 1px solid #8b8585;
-  border-radius: 5px;
+  border-radius: 20px;
 
   display: grid;
   grid-template-rows: max-content 10px 1fr;
@@ -222,7 +222,7 @@ top: 35px;
 right: 260px;
 }
 .main{
-    background-color: aquamarine;
+    background-color: rgb(139, 146, 102);
 }
 .titre{
     position: absolute;
@@ -232,7 +232,7 @@ right: 260px;
 }
 
 .pré-entête{
-    background-color: #755959;
+    background-color: #695f5f;
 }
 .mini-titre{
 list-style: none;
@@ -272,7 +272,7 @@ justify-content: flex-end;
 }
 
 body{
-  background-color: #999;
+  background-color:rgb(160, 156, 156)
 }
 .mini-button{
   text-decoration: none;

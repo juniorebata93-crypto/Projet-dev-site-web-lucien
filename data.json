@@ -1,9 +1,12 @@
 
 {
-   "all-cards": [
+   "cards": [
     {
         "id=1": "card1",
         "titre ": "Histoire",
+        "href": "index-2.html",
+        "class": "card1",
+        "class1": "t1",
         "résumé": "dans cette carte figure un article ayant pour but de relater les faits et événements histoires qui se sont produits en Républiques du Congo en partant de l'époque coloniale jusqu'aux années 2000",
         "description": "cette carte permet de diriger l'utilistteur vers un article basé sur l'histore de la République du Congo"
         
