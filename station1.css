@@ -1,0 +1,46 @@
+
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.af{
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.af:hover{
+     transform: translateY(2px);
+         box-shadow: 1px  rgba(0, 0, 0, 0.2);
+}
+.tac{
+    width: 210px;
+    height: auto;
+    border-radius: 20px;
+    cursor: pointer;  
+}
+.tac:hover{
+    transform: translateY(2px);
+         box-shadow: 1px  rgba(0, 0, 0, 0.2);
+}
+.booking{
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    cursor: pointer;  
+}
+.booking:hover{
+   transform: translateY(2px);
+         box-shadow: 1px  rgba(46, 46, 46, 0.2); 
+}
+.partenaires{
+     display: flex;
+          flex-wrap:wrap ;
+             justify-content: space-between;
+                 position:relative; 
+                     margin-top: 12%;
+                     padding: 35PX;
+                        
+
+}
