@@ -1,31 +1,7 @@
 
 
 
-.styled {
-  border: 0;
-  line-height: 2.5;
-  padding: 0 5px;
-  font-size: 11px;
-  text-align: center;
-  color: rgb(216, 216, 61);
-  text-shadow: 1px 1px 1px black;
-  border-radius: 10px;
-  background-color: rgb(27, 175, 69);
-  background-image: linear-gradient(
-    to top left,
-    rgb(0 0 0 / 0.2),
-    rgb(0 0 0 / 0.2) 30%,
-    transparent
-  );
-  width: 8%;
-  box-shadow:
-    inset 2px 2px 3px rgb(255 255 255 / 0.6),
-    inset -2px -2px 3px rgba(174, 141, 141, 0.6);
-    position: absolute;
-    top: 112px;
-    right: 120px;
-    margin-top: -58px;
-}
+
 
 .styled:hover {
   background-color: rgb(216, 56, 56);
@@ -40,6 +16,7 @@
 body{
 .titre{
     text-align: center;
+    text-decoration: none;
 }
 .card1{
    text-decoration: none;
@@ -54,7 +31,7 @@ body{
 }
 .card1:hover{
   transform: translateY(20px);
-  box-shadow: 0 10px 20px rgba(22, 115, 59, 0.2);
+  box-shadow: 0 10px 20px rgba(26, 160, 70, 0.466);
 }
 .cards1{
   width: 20%;
@@ -83,7 +60,7 @@ body{
 }
 .card2:hover{
   transform: translateY(20px);
-  box-shadow: 0 10px 20px rgba(45, 180, 99, 0.2);
+  box-shadow: 0 10px 20px rgba(26, 160, 70, 0.466);
 
 }
 .cards2{
@@ -108,7 +85,7 @@ body{
 }
 .card3:hover{
   transform: translateY(20px);
-  box-shadow: 0 10px 20px rgba(45, 180, 99, 0.2);
+  box-shadow: 0 10px 20px rgba(26, 160, 70, 0.466);
 
 }
 .cards3{
@@ -130,7 +107,7 @@ transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .card4:hover{
   transform: translateY(20px);
-  box-shadow: 0 10px 20px rgba(45, 180, 99, 0.2);
+  box-shadow: 0 10px 20px rgba(26, 160, 70, 0.466);
 
 }
 .cards4{
@@ -153,7 +130,7 @@ transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .card5:hover{
   transform: translateY(20px);
-  box-shadow: 0 10px 20px rgba(45, 180, 99, 0.2);
+  box-shadow: 0 10px 20px rgba(26, 160, 70, 0.466);
 
 }
 .cards5{
@@ -209,20 +186,21 @@ transition: cubic-bezier(0.075, 0.82, 0.165, 1);
      position: absolute;
     top: -45px;
     right: 55px;
-    margin-top: 60px;
-   
+    margin-top: 60px;  
 }
 .search-bar{
     margin-top:15px ;
 padding:8px 14px ;
 border-radius:20px ;
-border: 5px rgb(154, 56, 56) ;
+border: 10px rgb(154, 56, 56) ;
 position: absolute;
 top: 35px;
 right: 260px;
+cursor: pointer;
 }
 .main{
     background-color: rgb(139, 146, 102);
+    margin-top:9%;
 }
 .titre{
     position: absolute;
@@ -230,9 +208,8 @@ right: 260px;
     margin: 0;
     right: 45%;
 }
-
 .pré-entête{
-    background-color: #695f5f;
+    background-color: #292424;
 }
 .mini-titre{
 list-style: none;
@@ -260,17 +237,13 @@ border: 8px white;
   border: 10px solid;
   border-radius: 10px;
 }
-
-
 .sous-entête{
-  
  size: 5%;
  width: 10%;
 right: 40%;
 display: flex;
 justify-content: flex-end;
 }
-
 body{
   background-color:rgb(160, 156, 156)
 }
@@ -278,4 +251,188 @@ body{
   text-decoration: none;
   color: white;
   background-color: #8b8585;
+}
+.ttt1{
+   text-align: center;
+      position: absolute; 
+           top: 71%;
+           margin: 0;
+           right: 7%;
+   color: white;
+}
+footer{
+  background-color: #292424;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+.connexion{
+       border-radius: 20px;
+       padding: 7px;
+        cursor: pointer;
+        border: #8b8585;
+        position: absolute;
+        margin-top: -400px;
+        right: 66px;
+}
+.af{
+    width: 380px;
+    height: auto;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.af:hover{
+     transform: translateY(2px);
+         box-shadow: 1px  rgba(0, 0, 0, 0.2);
+}
+.tac{
+    width: 150px;
+    height: auto;
+    border-radius: 20px;
+    cursor: pointer;  
+}
+.tac:hover{
+    transform: translateY(2px);
+         box-shadow: 1px  rgba(0, 0, 0, 0.2);
+}
+.booking{
+    width: 180px;
+    height: auto;
+    border-radius: 20px;
+    cursor: pointer;  
+}
+.booking:hover{
+   transform: translateY(2px);
+         box-shadow: 1px  rgba(46, 46, 46, 0.2); 
+}
+.hilton{
+     width: 150px;
+    height: auto;
+    border-radius: 20px;
+    cursor: pointer;   
+}
+.hilton:hover{
+   transform: translateY(2px);
+         box-shadow: 1px  rgba(46, 46, 46, 0.2);    
+}
+.partenaires{
+     display: flex;
+          flex-wrap:wrap ;
+             justify-content: space-between;
+                 position:relative; 
+                     margin-top: 12%;
+                     padding: 35PX;
+}
+.t6{
+   color: rgb(0, 0, 0);
+       position: absolute;
+       margin-top: 100px;
+       right: 42%;
+  }
+  .tour-j{
+     width: 155px;
+    height: 190px;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    box-shadow: 0 10px 20px  rgb(0, 0, 0);
+  }
+  .t7{
+       text-align: center;
+  }
+  .tour-j:hover{
+     transform: scale(2);
+  box-shadow: 0 10px 20px  rgb(0, 0, 0);
+  z-index: 10;
+  }
+  .viaduque{
+    width: 170px;
+    height: 190px;
+    border-radius: 66px;
+    cursor: pointer;
+     transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    box-shadow: 0 10px 20px  rgb(0, 0, 0);
+  }
+  .viaduque:hover{
+     transform: scale(2);
+  box-shadow: 0 10px 20px  rgb(0, 0, 0);
+  z-index: 10;
+  }
+.elephants{
+    width: 170px;
+    height: 190px;
+    border-radius: 66px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+     box-shadow: 0 10px 20px  rgb(0, 0, 0);
+}
+.elephants:hover{
+    transform: scale(2);
+  box-shadow: 0 10px 20px  rgb(0, 0, 0);
+  z-index: 10;
+}
+.radisson{
+   width: 170px;
+    height: 190px;
+    border-radius: 66px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    box-shadow: 0 10px 20px  rgb(0, 0, 0);
+}
+.radisson:hover{
+     transform: scale(1.7);
+  box-shadow: 0 10px 20px  rgb(0, 0, 0);
+  z-index: 10;
+}
+.gorille{
+    width: 170px;
+    height: 190px;
+    border-radius: 66px;
+   cursor: pointer;
+   transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    box-shadow: 0 10px 20px  rgb(0, 0, 0);
+}
+.gorille:hover{
+    transform: scale(2);
+  box-shadow: 0 10px 20px  rgb(0, 0, 0);
+  z-index: 10;
+}
+.aeroport{
+  width: 170px;
+    height: 190px;
+    border-radius: 66px;
+    cursor: pointer;
+     transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    box-shadow: 0 10px 20px  rgb(0, 0, 0);
+}
+.aeroport:hover{
+   transform: scale(2);
+  box-shadow: 0 10px 20px  rgb(0, 0, 0);
+  z-index: 10;
+}
+.basilic{
+    width: 180px;
+    height: 180px;
+    border-radius: 66px;
+    cursor: pointer;
+     transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    box-shadow: 0 10px 20px  rgb(0, 0, 0);
+}
+.basilic:hover{
+   transform: scale(1.7);
+  box-shadow: 0 10px 20px  rgb(0, 0, 0);
+  z-index: 10;
+}
+.all-img{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
 }

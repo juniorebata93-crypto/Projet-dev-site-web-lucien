@@ -34,12 +34,13 @@ fetch("data.json")
         data.cards.forEach((card) =>{
             const html = `<div class="${card.class}">                            
                                      <a href="${card.url}">
-                                              <article class="${card.id}">
-                                                      <h1> ${card.titre}</h1>                                                              
-                                              </article>
-                                     </a>
-                              </div>
-                         </div>`; 
+                                                     <article class="${card.id}">
+                                                             <div>  
+                                                                     <h1> ${card.titre}</h1>                                                              
+                                                             </div>
+                                                     </article>                                               
+                                     </a>                            
+                          </div>`; 
       });         
           const results = cards.filter(tech => {
                return tech.name.toLowerCase().includes(value);
