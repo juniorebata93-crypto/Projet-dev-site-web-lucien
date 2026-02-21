@@ -1,52 +1,38 @@
 
-
-
-
-
-.styled:hover {
-  background-color: rgb(216, 56, 56);
-}
-
-.styled:active {
-  box-shadow:
-    inset -2px -2px 3px rgb(255 255 255 / 0.6),
-    inset 2px 2px 3px rgb(0 0 0 / 0.6);
-}
-/*css barre de recherche*/
-body{
-.titre{
-    text-align: center;
-    text-decoration: none;
+.jt{
+     color: white;
+         position: absolute;
+            margin-top: -120px;
+              right: 50%;
 }
 .card1{
-   text-decoration: none;
-    border: 1px solid #8b8585;
-  border-radius: 20px;
-  display: grid;
-  grid-template-rows: max-content 280px 1fr;
-   width: 90%;
- transition: cubic-bezier(0.075, 0.82, 0.165, 1);
- cursor: pointer;
- background-image: url("IMAGE\ CARTE\ 1.png");
+   border: 1px solid #8b8585;
+   border-radius: 20px;
+       display: grid;
+           grid-template-rows: max-content 280px 1fr;
+         width: 90%;
+          /*effet de transiton*/
+            transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+               /*changement curseur au survol de la carte*/ 
+                 cursor: pointer;
+                     /*image arrière plan sur la carte*/   
+                         background-image: url("IMAGE\ CARTE\ 1.png");
 }
 .card1:hover{
-  transform: translateY(20px);
-  box-shadow: 0 10px 20px rgba(26, 160, 70, 0.466);
+/*agrandissement taille de la carte lors du survol du pointeur*/
+    transform: translateY(20px);
+  /*effet lumineux en arrière de la carte lors de son survol par le pointeur */
+       box-shadow: 0 10px 20px rgba(26, 160, 70, 0.466);
 }
 .cards1{
-  width: 20%;
-  text-decoration: none;
-}
+/*taille de la carte*/
+   width: 20%;
 }
 .t1{
-    text-align: center;
-    color: white;
+/*alignement et couleur du texte*/  
+   text-align: center;
+       color: white;
 }
-.tt1 h1{
-  text-decoration: none;
-
-}
-
 .card2{
     border: 1px solid #8b8585;
   border-radius: 20px;
@@ -114,35 +100,44 @@ transition: cubic-bezier(0.075, 0.82, 0.165, 1);
     width: 20%;
 }
 .t4{
-    text-align: center;
-    color: white;
+/*alignement et couleur du texte*/
+   text-align: center;
+       color: white;
 }
-
 .card5{
-    border: 1px solid #8b8585;
-  border-radius: 20px;
+/*bordure de la carte*/
+   border: 1px solid #8b8585;
+       border-radius: 20px;
   display: grid;
   grid-template-rows: max-content 300px 1fr;
   width: 90%;
-background-image: url("image\ carte\ 5.png");
-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
- cursor: pointer;
+/*image en fond sur la carte*/
+  background-image: url("image\ carte\ 5.png");
+/*effet survol*/
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+/*changement curseur lorsqu'il survol la carte*/
+  cursor: pointer;
 }
 .card5:hover{
-  transform: translateY(20px);
-  box-shadow: 0 10px 20px rgba(26, 160, 70, 0.466);
-
+/*taille de l'agrandissement de la carte lors du survol du curseur*/
+   transform: translateY(20px);
+/*effet coloré de la carte en arrière plan*/ 
+     box-shadow: 0 10px 20px rgba(26, 160, 70, 0.466);
 }
 .cards5{
+/*taille de la carte*/  
     width: 20%;
 }
 .t5{
-    text-align: center;
-    color: white;
+/*alignement du texte*/
+   text-align: center;
+/*couleur du texte*/   
+       color: white;
 }
 .card6{
-    border: 1px solid #8b8585;
-  border-radius: 20px;
+/*bordure de la carte*/  
+   border: 1px solid #8b8585;
+     border-radius: 20px;
 
   display: grid;
   grid-template-rows: max-content 300px 1fr;
@@ -150,12 +145,14 @@ transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 
 }
 .cards6{
-    width: 20%;
+/*taille de la carte*/
+     width: 20%;
 }
 
 .card7{
-      border: 1px solid #8b8585;
-  border-radius: 20px;
+/*Bordures de la carte*/
+  border: 1px solid #8b8585;
+       border-radius: 20px;
 
   display: grid;
   grid-template-rows: max-content 10px 1fr;
@@ -163,30 +160,32 @@ transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   width: 90%;
 }
 .all-cards{
-
-    display: flex;
-    flex-wrap:wrap ;
-    justify-content: space-between;
+ /*positionnement des cartes*/
+   display: flex;
+       flex-wrap:wrap ;
+          justify-content: space-between;
+/*ajustement hauteur de mes cartes*/
+       margin-top: 200px;
 }
 .all-cards1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    justify-content: center;
-    gap:30%px;
+/*positionnement horizental des cartes*/
+   display: flex;
+       flex-wrap: wrap;
+           justify-content: space-between;
+           justify-content: center;
+/*espace entre les cartes*/
+               gap:30%px;
 }
 .logo-acceuil{
- size: 25px;
- width:15%;
-
-
+/*taille du logo*/
+     width:15%;
 }
 .compte{
-    width:2%;
+/*positionnement du boutton de connexion*/
      position: absolute;
-    top: -45px;
-    right: 55px;
-    margin-top: 60px;  
+        top: -45px;
+           right: 55px;
+               margin-top: 60px;  
 }
 .search-bar{
     margin-top:15px ;
@@ -338,6 +337,9 @@ footer{
 .radisson-logo:hover{
   transform: translateY(2px);
          box-shadow: 1px  rgba(46, 46, 46, 0.2);    
+}
+.all-aperçu{
+  margin-top: 150px;
 }
 .partenaires{
      display: flex;

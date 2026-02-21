@@ -1,11 +1,9 @@
 
 body{
-    background-color: rgb(155, 155, 156);
+    background-color: rgb(142, 142, 152);
     color: white;
 }
-h1{
-    color:blue;
-}
+
 .mini-titre{
 list-style: none;
 display: flex;

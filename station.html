@@ -5,38 +5,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mwana Mboka</title>
-   <link rel="shortcut icon " href="img.logo.nav.png"/>  
-   <link rel="stylesheet" href="station.css">
+     <link rel="shortcut icon " href="img.logo.nav.png"/>  
+         <link rel="stylesheet" href="station.css">
+             <link rel="stylesheet" href="{{url_for('static',filename='station.css')}}">
 </head>
 <body>
          <div class="login">
-               <header>
-                     <img src="img.logo.nav.png" alt="logo" class="login-logo">
-                         <h1 class="sous-titre">Ne jamais trahir le Congo!</h1>
-               </header>
-                   <form action="/ma-page-de-traitement" method="post">
+                 <header>
+                          <img src="img.logo.nav.png" alt="logo" class="login-logo">
+                                 <h1 class="sous-titre">Ne jamais trahir le Congo!</h1>
+                 </header>
+                      <form action="/ma-page-de-traitement" method="post">
                              <ul>
-                                   <li class="contenair">
-                                       <label for="mail">E-mail&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                                           <input type="email" id="mail" name="user_mail" />
-                                   </li>
-                                           <li class="contenair">
-                                                  <label for="passeword">password&nbsp;:&nbsp;&nbsp;</label>
-                                                    <input type="passeword" id="passeword" name="user_passeword" />
-                                           </li>
-                                                      <br>
-                                                   <div class="contenair1">
-                                                           <div class="button2">
-                                                                  <button type="submit" class="button2">connectez-vous</button>
-                                                                     <a href="index.html"></a>
-                                                           </div>          
-                                                                   <p>Ou</p>
-                                                                               <div class="button3">
-                                                                                      <button type="submit" class="button3">créer un compte</button>
-                                                                               </div> 
-                                                   </div>
+                                     <li class="contenair">
+                                          <label for="mail">E-mail&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                                 <input type="email" id="mail" name="user_mail" />
+                                     </li>
+                                             <li class="contenair">
+                                                         <label for="passeword">password&nbsp;:&nbsp;&nbsp;</label>
+                                                                 <input type="passeword" id="passeword" name="user_passeword" />
+                                             </li>
+                                                     <div class="contenair1">
+                                                             <div class="button2">
+                                                                     <button type="submit" class="button2">connectez-vous</button>
+                                                                             <a href="index.html"></a>
+                                                             </div>          
+                                                                     <p>Ou</p>
+                                                                                 <div class="button3">
+                                                                                         <button type="submit" class="button3">créer un compte</button>
+                                                                                 </div> 
+                                                     </div>
                              </ul>                
-                   </form>
+                     </form>
          </div>
 </body>
 </html>
