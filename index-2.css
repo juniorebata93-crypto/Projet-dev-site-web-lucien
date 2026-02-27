@@ -1,9 +1,62 @@
 
 body{
-    background-color: rgb(142, 142, 152);
+    background-color: rgb(0, 0, 0);
     color: white;
+    text-align: center;
 }
-
+h1,h2,h3,h4,h5,h6{
+     color: bisque;
+        font-size: 32px;
+}
+.mise-en-page{
+  font-size: 21px;
+}
+.ms1{ 
+  width: 46%;
+}
+.img1{
+  width: 48%;
+  position: absolute;
+  margin-top: -3%;
+  right: 20px;
+}
+.img2{
+   width: 38%;
+  position: absolute;
+  margin-top: 6%;
+  right: 80px;
+}
+.img3{
+  width: 33%;
+  position: absolute;
+  margin-top: 64%;
+  right: 100px;
+}
+.img4{
+  width: 48%;
+}
+.img5{
+    width: 40%;
+     position: absolute;
+  margin-top: 1%;
+  right: 60px;
+}
+.img6{
+  width: 50%;
+}
+.img7{
+   width: 55%;
+}
+.img8{
+   width: 47%;
+     position: absolute;
+  margin-top: 7%;
+  right: 60px;
+}
+.items{
+   margin-bottom: 40px;
+         padding: 70px;
+}
 .mini-titre{
 list-style: none;
 display: flex;
@@ -23,10 +76,9 @@ border: 8px white;
   padding: 1% ;
  border-radius: 5px;
   size: 50px;
- box-shadow : 4PX 4px 12px white, -4px -4px 12px white
-  
+ box-shadow : 4PX 4px 12px white, -4px -4px 12px white;
+  text-decoration: none;
 }
 .mini-titre a :hover{
-  border: 10px solid;
-  border-radius: 10px;
+       transform: translateY(2px);
 }

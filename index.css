@@ -1,4 +1,8 @@
 
+nav {
+    text-align: center;
+    align-items: center;
+}
 .jt{
      color: white;
          position: absolute;
@@ -167,15 +171,6 @@ transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 /*ajustement hauteur de mes cartes*/
        margin-top: 200px;
 }
-.all-cards1{
-/*positionnement horizental des cartes*/
-   display: flex;
-       flex-wrap: wrap;
-           justify-content: space-between;
-           justify-content: center;
-/*espace entre les cartes*/
-               gap:30%px;
-}
 .logo-acceuil{
 /*taille du logo*/
      width:15%;
@@ -233,12 +228,12 @@ border: 8px white;
   padding: 1% ;
  border-radius: 5px;
   size: 50px;
- box-shadow : 4PX 4px 12px white, -4px -4px 12px white
-  
+ box-shadow : 4PX 4px 12px white, -4px -4px 12px white;
+  margin: 5%; 
 }
-.mini-titre a :hover{
-  border: 10px solid;
-  border-radius: 10px;
+.mini-titre :hover{
+    transform: translateY(2px);
+      box-shadow: white;
 }
 .sous-entête{
  size: 5%;
@@ -297,7 +292,7 @@ footer{
 .af:hover{
      transform: translateY(2px);
          box-shadow: 1px  rgba(0, 0, 0, 0.2);
-}
+} 
 .tac{
     width: 110px;
     height: auto;
@@ -352,7 +347,7 @@ footer{
 .t6{
    color:white;
        position: absolute;
-       margin-top: 100px;
+       margin-top: -60px;
        right: 42%;
   }
   .tour-j{
@@ -477,3 +472,47 @@ footer{
    width: 40px;
    cursor: pointer;
 }
+@media (max-width: 600px){
+  body{
+ align-items: center;
+      font-family: Arial;
+}
+header,nav,section,footer{
+  width: 100%;
+}
+
+ nav {
+    text-align: center;
+    align-items: center;
+  }
+  header,footer {
+    text-align: center;
+    align-items: center;
+
+  }
+  .items ul {
+  gap: 10px;
+  margin: 5%;
+  align-items: center;
+  flex-direction: column;
+}
+.all-cards{
+  display: grid;
+  grid-template-columns: repeat(1, minmax(270%,1fr));
+  gap:30px;
+  align-items: center;
+
+}
+.jt{
+  position: absolute;
+   right: 100px;
+}
+.t6{
+    position: absolute;
+   margin-top:-70PX;
+    right: 55px;
+}
+}
+
+
+

@@ -3,44 +3,68 @@ body{
      background-color: black;
              color: white;
          text-align: center;
+         align-items: center;
+         margin-bottom: 100px;
+         padding: 100px;
 }
-.af{
-     width: 600px;
-     height: auto;
-         border-radius: 20px;
-             cursor: pointer;
+h1,h2,h3,h4,h5,h6{
+     color: bisque;
+        font-size: 32px;
 }
-.af:hover{
-     transform: translateY(2px);
-         box-shadow: 1px  rgba(0, 0, 0, 0.2);
-}
-.tac{
-     width: 210px;
-     height: auto;
-         border-radius: 20px;
-             cursor: pointer;  
-}
-.tac:hover{
-    transform: translateY(2px);
-         box-shadow: 1px  rgba(0, 0, 0, 0.2);
-}
-.booking{
-     width: 300px;
-     height: auto;
-          border-radius: 20px;
-             cursor: pointer;  
-}
-.booking:hover{
-   transform: translateY(2px);
-         box-shadow: 1px  rgba(46, 46, 46, 0.2); 
-}
-.partenaires{
-     display: flex;
-          flex-wrap:wrap ;
-                  justify-content: space-between;
-              position:relative; 
-                     margin-top: 12%;
-                     padding: 35PX;
-                        
+.mise-en-page{
+  font-size: 18px;
+   width: 50%;
 
+}
+.img1{ 
+  position: absolute;
+  margin-top: 470px;
+  right: 10px;
+   width: 44%;
+}
+.img2{
+  position: absolute;
+  margin-top: -70px;
+  right: 10px;
+   width: 44%;
+}
+.img4{
+  position: absolute;
+  margin-top: 10px;
+  right: 10px;
+   width: 44%;
+}
+.img3{
+     width: 75%;
+}
+.mise-en-page1{
+  font-size: 18px;
+}
+.mini-titre{
+list-style: none;
+display: flex;
+gap: 70px;
+color: white;
+font-weight: bold;
+text-transform: uppercase;
+transition: all 0.3s;
+align-items: center;
+cursor: pointer;
+list-style: none;
+font-size: 15px;
+border: 8px white;
+}
+.mini-titre a {
+  padding: 2% ;
+ border-radius: 5px;
+  size: 50px;
+ box-shadow : 4PX 4px 12px white, -4px -4px 12px white ;
+ text-decoration: none;
+}
+.mini-titre a :hover{
+    transform: translateY(2px);
+}
+.items{
+  position: absolute;
+    margin-top: -100px;
 }

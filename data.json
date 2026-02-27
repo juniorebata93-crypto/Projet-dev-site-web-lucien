@@ -5,13 +5,13 @@
         "class":"cards1",
         "url":"index-2.html",
         "id": "card1",
-        "titre ": "Histoire",
+        "titre": "Histoire",
         "résumé": "dans cette carte figure un article ayant pour but de relater les faits et événements histoires qui se sont produits en Républiques du Congo en partant de l'époque coloniale jusqu'aux années 2000",
         "description": "cette carte permet de diriger l'utilistteur vers un article basé sur l'histore de la République du Congo" 
     },
     {
         "class":"cards2",
-        "url":"#",
+        "url":"station1.html",
         "id": "card2",
         "titre": "Biodiversité",
         "résumé": "dans cette carte figure un article consacrer à parler de la Biodiversté notemment le bassin que possède la République du Congo ",
@@ -19,7 +19,7 @@
     },
     {
          "class":"cards3",
-         "url":"#",
+         "url":"layout.html",
          "id": "card3",
          "titre": "culture",
          "résumé" : " dans cette carte figure un article consacré à la culture des différentes ethnies existantes en République du Congo",
@@ -27,7 +27,7 @@
     },
     {
          "class":"cards4",
-         "url":"#",
+         "url":"layout2.html",
          "id": "card4",
          "titre": "Musique",
          "résumé" : " dans cette carte figure un article consacré à la Musique congolaise dont un style en particulier appélé Rumba congolaise",
@@ -35,7 +35,7 @@
     },
     {
          "class":"cards5",
-         "url":"#",
+         "url":"layout3.html",
          "id": "card5",
          "titre": "Mode",
          "résumé" : " dans cette carte figure un article consacré à la Mode congolaise appeler sapologie qui est un art d'assemblé les couleurs ",
