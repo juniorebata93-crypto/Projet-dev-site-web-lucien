@@ -335,6 +335,7 @@ footer{
 }
 .all-aperçu{
   margin-top: 150px;
+ 
 }
 .partenaires{
      display: flex;
@@ -471,6 +472,16 @@ footer{
   border-radius: 80px;
    width: 40px;
    cursor: pointer;
+}
+.video{
+        width: 74%;
+       
+         margin-top: 200px auto;
+           border-radius: 50px;
+           right: 50px;
+           position: relative;
+                right: -160px;
+                 margin-top: 50px;
 }
 @media (max-width: 600px){
   body{
