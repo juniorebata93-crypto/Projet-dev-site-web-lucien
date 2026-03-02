@@ -11,28 +11,31 @@ h1,h2,h3,h4,h5,h6{
      color: bisque;
         font-size: 32px;
 }
-.mise-en-page{
+.msp1{
   font-size: 18px;
    width: 50%;
 
 }
+.p{
+   font-size: 20px;
+}
 .img1{ 
   position: absolute;
-  margin-top: 470px;
-  right: 10px;
-   width: 44%;
+  margin-top: 460px;
+  right: 70px;
+   width: 32%;
 }
 .img2{
   position: absolute;
-  margin-top: -70px;
-  right: 10px;
-   width: 44%;
+  margin-top: 20px;
+  right: 70px;
+   width: 32%;
 }
 .img4{
   position: absolute;
-  margin-top: 10px;
-  right: 10px;
-   width: 44%;
+  margin-top: 170px;
+  right: 70px;
+   width: 32%;
 }
 .img3{
      width: 75%;
@@ -64,10 +67,12 @@ border: 8px white;
 .mini-titre a :hover{
     transform: translateY(2px);
 }
-.items{
+.items ul{
   position: absolute;
-    margin-top: -100px;
+    margin-top: -70px;
+       right: 580px;
 }
+
 .video{
         width: 70%;
        
@@ -76,8 +81,52 @@ border: 8px white;
            right: 50px;
            position: relative;
                 right: -100px;
-                 margin-top: 20px;
+                 margin-top: 50px;
 }
 .all-msp{
   margin-top: 200px;
 }
+@media (max-width: 600px){
+.video{
+      width: 90%;
+  position: absolute;
+         margin-top: 10px;
+      right: -38px; ;
+}
+.items ul {
+  padding: 5%;
+  gap: 30px;
+    margin-top: -80px; 
+    position: absolute;
+     right: -70px;
+}
+body{
+  width: 100%;
+}
+.msp1{
+  width: 100%;
+  margin-top: 250px;
+}
+.img1{
+    width: 60%; 
+       margin-top: 300px;
+          position: absolute;
+             right: -180px;
+}
+.img2{
+    width: 70%;
+      margin-top: -200px; 
+        position: absolute;
+          right: -50px;
+}
+.img3{
+    width: 85%;
+}
+.img4{
+    width: 67%;
+      margin-top: 300px;
+            position: absolute;
+             right: 100px;
+}
+}
+

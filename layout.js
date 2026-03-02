@@ -11,7 +11,7 @@ fetch("data.json")
             const html = `<div class="${card.class}">                            
                                      <a href="${card.url}">
                                               <article class="${card.id}">
-                                                      <h1> ${card.titre}</h1>                                                              
+                                                                                                                 
                                               </article>
                                      </a>
                               </div>

@@ -1,0 +1,36 @@
+
+body{
+      background-color: rgb(13, 13, 13);
+      color: white;
+        text-align: center;
+           
+}
+.mini-titre{
+list-style: none;
+display: flex;
+gap: 70px;
+text-decoration: none;
+color: white;
+font-weight: bold;
+text-transform: uppercase;
+transition: all 0.3s;
+align-items: center;
+cursor: pointer;
+list-style: none;
+font-size: 15px;
+border: 8px white;
+}
+.mini-titre a {
+  padding: 1% ;
+ border-radius: 5px;
+  size: 50px;
+ box-shadow : 4PX 4px 12px white, -4px -4px 12px white;
+  text-decoration: none;
+}
+.mini-titre a :hover{
+       transform: translateY(2px);
+}
+.msp{
+    margin-top: 10%;
+      background-color: rgb(61, 68, 74);
+}
