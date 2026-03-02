@@ -1,0 +1,170 @@
+body {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: bisque;
+  font-size: 32px;
+}
+.mise-en-page {
+  font-size: 21px;
+}
+.ms1 {
+  width: 46%;
+}
+.img1 {
+  width: 48%;
+  position: absolute;
+  margin-top: -3%;
+  right: 20px;
+}
+.img2 {
+  width: 29%;
+  position: absolute;
+  margin-top: 6%;
+  right: 100px;
+}
+.img3 {
+  width: 31%;
+  position: absolute;
+  margin-top: 750px;
+  right: 230px;
+}
+.img4 {
+  width: 48%;
+}
+.img5 {
+  width: 30%;
+  position: absolute;
+  margin-top: 1%;
+  right: 60px;
+}
+.img6 {
+  width: 50%;
+}
+.img7 {
+  width: 55%;
+}
+.img8 {
+  width: 40%;
+  position: absolute;
+  margin-top: 7%;
+  right: 60px;
+}
+.items {
+  margin-bottom: 40px;
+  padding: 70px;
+}
+.ms3 {
+  width: 50%;
+}
+p {
+  font-size: 19px;
+}
+.mini-titre {
+  list-style: none;
+  display: flex;
+  gap: 70px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  align-items: center;
+  cursor: pointer;
+  list-style: none;
+  font-size: 15px;
+  border: 8px white;
+}
+.mini-titre a {
+  padding: 1%;
+  border-radius: 5px;
+  size: 50px;
+  box-shadow:
+    4px 4px 12px white,
+    -4px -4px 12px white;
+  text-decoration: none;
+}
+.mini-titre a :hover {
+  transform: translateY(2px);
+}
+@media (max-width: 950px) {
+  body {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  P {
+    font-size: 16px;
+  }
+  .h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .img {
+    width: 90%;
+  }
+  .items ul {
+    gap: 30px;
+    align-items: center;
+    position: absolute;
+    right: 30px;
+  }
+  .ms1 {
+    width: 90%;
+  }
+  .ms2 {
+    margin-top: 240px;
+    font-size: 16px;
+    position: relative;
+    right: -11px;
+  }
+
+  .ms3 {
+    margin-top: 280px;
+    font-size: 14px;
+    width: 100%;
+  }
+  .img1 {
+    width: 60%;
+    position: absolute;
+    right: 70px;
+  }
+  .img2 {
+    width: 32%;
+    margin-top: 5px;
+    position: absolute;
+    right: 25px;
+  }
+  .img3 {
+    width: 31%;
+    margin-top: 5px;
+    position: absolute;
+    right: 175px;
+  }
+  .img5 {
+    width: 70%;
+  }
+  .img6 {
+    width: 85%;
+  }
+  .img7 {
+    width: 85%;
+  }
+  .img8 {
+    width: 38%;
+    margin-top: -265px;
+    right: 100px;
+  }
+}

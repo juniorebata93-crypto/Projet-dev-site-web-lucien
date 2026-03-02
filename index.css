@@ -1,0 +1,550 @@
+nav {
+  text-align: center;
+  align-items: center;
+}
+.jt {
+  color: white;
+  position: absolute;
+  margin-top: -120px;
+  right: 50%;
+}
+.card1 {
+  border: 1px solid #8b8585;
+  border-radius: 20px;
+  display: grid;
+  grid-template-rows: max-content 280px 1fr;
+  width: 90%;
+  /*effet de transiton*/
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  /*changement curseur au survol de la carte*/
+  cursor: pointer;
+  /*image arrière plan sur la carte*/
+  background-image: url("IMAGE\ CARTE\ 1.png");
+}
+.card1:hover {
+  /*agrandissement taille de la carte lors du survol du pointeur*/
+  transform: translateY(20px);
+  /*effet lumineux en arrière de la carte lors de son survol par le pointeur */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.466);
+}
+.cards1 {
+  /*taille de la carte*/
+  width: 20%;
+}
+.t1 {
+  /*alignement et couleur du texte*/
+  text-align: center;
+  color: white;
+}
+.card2 {
+  border: 1px solid #8b8585;
+  border-radius: 20px;
+  display: grid;
+  grid-template-rows: max-content 292px 1fr;
+  width: 90%;
+  background-image: url("image\ carte\ 2.png");
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  cursor: pointer;
+}
+.card2:hover {
+  transform: translateY(20px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.466);
+}
+.cards2 {
+  width: 20%;
+}
+.t2 {
+  text-align: center;
+  color: white;
+}
+
+.card3 {
+  border: 1px solid #8b8585;
+  border-radius: 20px;
+  display: grid;
+  grid-template-rows: max-content 300px 1fr;
+  width: 90%;
+  background-image: url("image\ carte\ 3.png");
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  cursor: pointer;
+}
+.card3:hover {
+  transform: translateY(20px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.466);
+}
+.cards3 {
+  width: 20%;
+}
+.t3 {
+  text-align: center;
+  color: white;
+}
+.card4 {
+  border: 1px solid #8b8585;
+  border-radius: 20px;
+  display: grid;
+  grid-template-rows: max-content 300px 1fr;
+  width: 90%;
+  background-image: url("image\ carte\ 4.png");
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  cursor: pointer;
+}
+.card4:hover {
+  transform: translateY(20px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.466);
+}
+.cards4 {
+  width: 20%;
+}
+.t4 {
+  /*alignement et couleur du texte*/
+  text-align: center;
+  color: white;
+}
+.card5 {
+  /*bordure de la carte*/
+  border: 1px solid #8b8585;
+  border-radius: 20px;
+  display: grid;
+  grid-template-rows: max-content 300px 1fr;
+  width: 90%;
+  /*image en fond sur la carte*/
+  background-image: url("image\ carte\ 5.png");
+  /*effet survol*/
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  /*changement curseur lorsqu'il survol la carte*/
+  cursor: pointer;
+}
+.card5:hover {
+  /*taille de l'agrandissement de la carte lors du survol du curseur*/
+  transform: translateY(20px);
+  /*effet coloré de la carte en arrière plan*/
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.466);
+}
+.cards5 {
+  /*taille de la carte*/
+  width: 20%;
+}
+.t5 {
+  /*alignement du texte*/
+  text-align: center;
+  /*couleur du texte*/
+  color: white;
+}
+.card6 {
+  /*bordure de la carte*/
+  border: 1px solid #8b8585;
+  border-radius: 20px;
+  display: grid;
+  grid-template-rows: max-content 300px 1fr;
+  width: 90%;
+}
+.cards6 {
+  /*taille de la carte*/
+  width: 20%;
+}
+.card7 {
+  /*Bordures de la carte*/
+  border: 1px solid #8b8585;
+  border-radius: 20px;
+
+  display: grid;
+  grid-template-rows: max-content 10px 1fr;
+  width: 4%;
+  width: 90%;
+}
+.all-cards {
+  /*positionnement des cartes*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /*ajustement hauteur de mes cartes*/
+  margin-top: 200px;
+  position: relative;
+  right: -14px;
+}
+.jt {
+  color: black;
+  position: absolute;
+  right: 700px;
+}
+.logo-acceuil {
+  /*taille du logo*/
+  width: 15%;
+}
+.main {
+  background-color: rgb(139, 146, 102);
+  margin-top: 9%;
+}
+.titre {
+  position: absolute;
+  top: 3%;
+  margin: 0;
+  right: 45%;
+}
+.pré-entête {
+  background-color: #1a1a1a;
+  background-image: url("IMG.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 524px;
+  opacity: 0.9s;
+  padding: 2%;
+  border-radius: 5px;
+}
+.mini-titre {
+  list-style: none;
+  display: flex;
+  gap: 70px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  align-items: center;
+  cursor: pointer;
+  list-style: none;
+  font-size: 15px;
+  border: 8px white;
+}
+.mini-titre a {
+  padding: 1%;
+  border-radius: 5px;
+  size: 50px;
+  box-shadow:
+    4px 4px 12px white,
+    -4px -4px 12px white;
+  position: relative;
+  margin-top: 4%;
+  right: -455px;
+}
+.mini-titre :hover {
+  transform: translateY(2px);
+  box-shadow: white;
+}
+.sous-entête {
+  size: 5%;
+  width: 5%;
+}
+body {
+  background-color: rgb(160, 156, 156);
+}
+.mini-button {
+  text-decoration: none;
+  color: white;
+  background-color: #8b8585;
+}
+.ttt1 {
+  text-align: center;
+  position: absolute;
+  top: 75%;
+  margin: 0;
+  right: 7%;
+  color: white;
+}
+footer {
+  background-color: #1a1a1a;
+  background-image: url("https://www.wwf.fr/themes/custom/wwf_main_theme/images/tiled_geo_dark.png");
+  background-repeat: repeat;
+  background-size: 600px;
+  opacity: 0.8s;
+  padding: 40px 20px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  margin: 1rem 0;
+  border: 0;
+  margin-top: 200px;
+}
+.connexion {
+  border-radius: 20px;
+  padding: 7px;
+  cursor: pointer;
+  border: #8b8585;
+  position: absolute;
+  margin-top: -400px;
+  right: 40px;
+}
+.af {
+  width: 280px;
+  height: auto;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.af:hover {
+  transform: translateY(2px);
+  box-shadow: 1px rgba(0, 0, 0, 0.2);
+}
+.tac {
+  width: 110px;
+  height: auto;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.tac:hover {
+  transform: translateY(2px);
+  box-shadow: 1px rgba(0, 0, 0, 0.2);
+}
+.booking {
+  width: 140px;
+  height: auto;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.booking:hover {
+  transform: translateY(2px);
+  box-shadow: 1px rgba(46, 46, 46, 0.2);
+}
+.hilton {
+  width: 110px;
+  height: auto;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.hilton:hover {
+  transform: translateY(2px);
+  box-shadow: 1px rgba(46, 46, 46, 0.2);
+}
+.radisson-logo {
+  width: 110px;
+  height: auto;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.radisson-logo:hover {
+  transform: translateY(2px);
+  box-shadow: 1px rgba(46, 46, 46, 0.2);
+}
+.all-aperçu {
+  margin-top: 150px;
+}
+.partenaires {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 12%;
+  padding: 35px;
+}
+.t6 {
+  color: white;
+  position: absolute;
+  margin-top: -150px;
+  right: 42%;
+}
+.tour-j {
+  width: 155px;
+  height: 190px;
+  border-radius: 60px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgb(0, 0, 0);
+}
+.t7 {
+  text-align: center;
+}
+.tour-j:hover {
+  transform: scale(2);
+  box-shadow: 0 10px 20px rgb(0, 0, 0);
+  z-index: 10;
+}
+.viaduque {
+  width: 170px;
+  height: 190px;
+  border-radius: 66px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgb(0, 0, 0);
+}
+.viaduque:hover {
+  transform: scale(2);
+  box-shadow: 0 10px 20px rgb(0, 0, 0);
+  z-index: 10;
+}
+.elephants {
+  width: 170px;
+  height: 190px;
+  border-radius: 66px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgb(0, 0, 0);
+}
+.elephants:hover {
+  transform: scale(2);
+  box-shadow: 0 10px 20px rgb(0, 0, 0);
+  z-index: 10;
+}
+.radisson {
+  width: 170px;
+  height: 190px;
+  border-radius: 66px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgb(0, 0, 0);
+}
+.radisson:hover {
+  transform: scale(1.7);
+  box-shadow: 0 10px 20px rgb(0, 0, 0);
+  z-index: 10;
+}
+.gorille {
+  width: 170px;
+  height: 190px;
+  border-radius: 66px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgb(0, 0, 0);
+}
+.gorille:hover {
+  transform: scale(2);
+  box-shadow: 0 10px 20px rgb(0, 0, 0);
+  z-index: 10;
+}
+.aeroport {
+  width: 170px;
+  height: 190px;
+  border-radius: 66px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgb(0, 0, 0);
+}
+.aeroport:hover {
+  transform: scale(2);
+  box-shadow: 0 10px 20px rgb(0, 0, 0);
+  z-index: 10;
+}
+.basilic {
+  width: 180px;
+  height: 180px;
+  border-radius: 66px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgb(0, 0, 0);
+}
+.basilic:hover {
+  transform: scale(1.7);
+  box-shadow: 0 10px 20px rgb(0, 0, 0);
+  z-index: 10;
+}
+.all-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+.github {
+  border-radius: 50px;
+  width: 39px;
+  cursor: pointer;
+}
+.insta {
+  border-radius: 80px;
+  width: 40px;
+  cursor: pointer;
+}
+.tiktok {
+  border-radius: 80px;
+  width: 40px;
+  cursor: pointer;
+}
+.video {
+  width: 74%;
+  margin-top: 200px auto;
+  border-radius: 1000px;
+  right: 50px;
+  position: relative;
+  right: -160px;
+  margin-top: 50px;
+}
+@media (max-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+  }
+  header,
+  nav,
+  section,
+  footer {
+    width: 100%;
+    align-items: center;
+  }
+
+  .one {
+    position: relative;
+    right: -60px;
+  }
+  .all-aperçu {
+    grid-template-columns: repeat(2, 1fr);
+    position: absolute;
+    right: -125px;
+    margin-top: 28px;
+  }
+  header,
+  footer {
+    text-align: center;
+    align-items: center;
+  }
+  .items ul {
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    padding: 5%;
+    position: relative;
+    left: -365px;
+  }
+  .video {
+    width: 188%;
+    position: relative;
+    right: -10px;
+  }
+  .all-cards {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(400%, 1fr));
+    gap: 25px;
+    position: relative;
+    margin-top: 1080px;
+    right: -135px;
+  }
+  .three {
+    position: absolute;
+    margin-top: 200px;
+  }
+  .jt {
+    position: absolute;
+    right: 185px;
+  }
+  .t6 {
+    position: absolute;
+    margin-top: -70px;
+    right: 78px;
+  }
+  .t7 {
+    margin-top: -180px;
+    position: relative;
+    right: -185px;
+  }
+  footer {
+    position: relative;
+    margin-top: 270px;
+    right: -35px;
+    border-radius: 5px;
+  }
+  .pré-entête {
+    width: 97%;
+    background-image: url("IMG.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 190px;
+    opacity: 0.9s;
+  }
+}

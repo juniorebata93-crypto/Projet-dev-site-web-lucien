@@ -1,0 +1,132 @@
+
+body{
+     background-color: black;
+             color: white;
+         text-align: center;
+         align-items: center;
+         margin-bottom: 100px;
+         padding: 100px;
+}
+h1,h2,h3,h4,h5,h6{
+     color: bisque;
+        font-size: 32px;
+}
+.msp1{
+  font-size: 18px;
+   width: 50%;
+
+}
+.p{
+   font-size: 20px;
+}
+.img1{ 
+  position: absolute;
+  margin-top: 460px;
+  right: 70px;
+   width: 32%;
+}
+.img2{
+  position: absolute;
+  margin-top: 20px;
+  right: 70px;
+   width: 32%;
+}
+.img4{
+  position: absolute;
+  margin-top: 170px;
+  right: 70px;
+   width: 32%;
+}
+.img3{
+     width: 75%;
+}
+.mise-en-page1{
+  font-size: 18px;
+}
+.mini-titre{
+list-style: none;
+display: flex;
+gap: 70px;
+color: white;
+font-weight: bold;
+text-transform: uppercase;
+transition: all 0.3s;
+align-items: center;
+cursor: pointer;
+list-style: none;
+font-size: 15px;
+border: 8px white;
+}
+.mini-titre a {
+  padding: 2% ;
+ border-radius: 5px;
+  size: 50px;
+ box-shadow : 4PX 4px 12px white, -4px -4px 12px white ;
+ text-decoration: none;
+}
+.mini-titre a :hover{
+    transform: translateY(2px);
+}
+.items ul{
+  position: absolute;
+    margin-top: -70px;
+       right: 580px;
+}
+
+.video{
+        width: 70%;
+       
+         margin-top: 200px auto;
+           border-radius: 50px;
+           right: 50px;
+           position: relative;
+                right: -100px;
+                 margin-top: 50px;
+}
+.all-msp{
+  margin-top: 200px;
+}
+@media (max-width: 600px){
+.video{
+      width: 90%;
+  position: absolute;
+         margin-top: 10px;
+      right: -38px; ;
+}
+.items ul {
+  padding: 5%;
+  gap: 30px;
+    margin-top: -80px; 
+    position: absolute;
+     right: -70px;
+}
+body{
+  width: 100%;
+}
+.msp1{
+  width: 100%;
+  margin-top: 250px;
+}
+.img1{
+    width: 60%; 
+       margin-top: 300px;
+          position: absolute;
+             right: -180px;
+}
+.img2{
+    width: 70%;
+      margin-top: -200px; 
+        position: absolute;
+          right: -50px;
+}
+.img3{
+    width: 85%;
+}
+.img4{
+    width: 67%;
+      margin-top: 300px;
+            position: absolute;
+             right: 100px;
+}
+}
+
