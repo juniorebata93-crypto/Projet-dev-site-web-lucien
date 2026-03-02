@@ -10,8 +10,7 @@ fetch("data.json")
             //on crée le html (card)
             const html = `<div class="${card.class}">                            
                                      <a href="${card.url}">
-                                              <article class="${card.id}">
-                                                                                                                 
+                                              <article class="${card.id}">                                     
                                               </article>
                                      </a>
                               </div>
